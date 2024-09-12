@@ -72,3 +72,13 @@ Compile link and run:
 g++ test.cpp -o test -lPRegEx
 ./test
 ```
+
+## Overview
+PRegEx is a lightweight C++ library for regular expression (regex) pattern matching and result tokenization. It is designed to provide efficient matching of complex patterns and tokenizing regex groups into structured results. PRegEx offers support for custom regex patterns, handling special characters, tokenization, and result extraction.
+
+## Key Features:
+- **Custom Regex Matching:** Supports matching against a wide variety of patterns.
+- **Result Tokenization:** Groups matching tokens and provides structured access to matched data.
+- **Balanced Symbol Detection:** Handles balanced symbols like parentheses, brackets, and braces.
+- **File and Buffer Support:** Can load regex patterns from files or in-memory buffers.
+- **Configurable Verbosity:** Provides detailed debug output based on verbosity level.
