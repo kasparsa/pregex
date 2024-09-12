@@ -19,3 +19,7 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Debug ..
 make
 ```
+Usage to write regular expressions with colorized pattern matching and debugging :
+```
+./parser ../testdata/testdata01.in "\n\([A-Z]+\);\([A-Za-z ()/0-9]+\);\([0-9]+\)"
+```
