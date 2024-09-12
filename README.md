@@ -117,3 +117,9 @@ PRegEx is a lightweight C++ library for regular expression (regex) pattern match
 - **0**: No debug output.
 - **1**: Basic match information (number of matches and groups).
 - **2**: Detailed output, including tokenized groups and pattern matches.
+
+# Screenshot
+PRegEx in action:
+<p align="center">
+  <img src="./demo.png" />
+</p>
