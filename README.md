@@ -123,3 +123,22 @@ PRegEx in action:
 <p align="center">
   <img src="./demo.png" />
 </p>
+
+# Cross-Platform development
+In order to avoid line ending issues in Windows or Linux follow this instruction
+
+## Use Version Control (Git) with Proper Line Ending Settings
+Git can automatically handle line ending differences across platforms. You don't need to keep two separate copies of your source code files. Git offers the core.autocrlf setting to manage this:
+
+### On Windows: Run:
+```
+git config --global core.autocrlf true
+```
+This converts line endings to \r\n when checking out code and converts them back to \n when committing.
+### On Linux/macOS: Run:
+```
+git config --global core.autocrlf input
+```
+This keeps the repository's files with ```\n``` line endings and converts them to ```\n``` when committing, but doesn't change them on checkout.
+
+This approach ensures consistent line endings in the repository while allowing platform-specific handling when working on different OSs.

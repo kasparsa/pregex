@@ -1,5 +1,18 @@
 #include "pregex.h"
 
+// Define the global variables here
+const char* patchar = " !\"#%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ^_`abcdefghijklmnopqrstuvwxyz{|}~";
+const char* symbol = "\r\n\t !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
+const char* uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const char* lowercase = "abcdefghijklmnopqrstuvwxyz";
+const char* digit = "0123456789";
+const char* hex = "0123456789abcdefABCDEF";
+const char* letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const char* wordsym = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_";
+const char* delimiter = "\r\n\t !\"#$%&'()*+,-./:;<=>?[\\]^`{|}~";
+const char* brackets = "()[]{}";
+const char* blank = "\t ";
+const char* newline = "\n";
 
 PRegEx::PRegEx()
 {
@@ -751,31 +764,46 @@ void PRegEx::init()
 }
 
 
-void PRegEx::load( const char *filename )
+void PRegEx::load(const char* filename)
 {
-    FILE *f = fopen( filename, "r" );
+    // Open the file in binary mode to prevent newline conversion on Windows
+    FILE* f = fopen(filename, "rb");  // Notice "rb" for binary mode
 
-    if ( f == NULL ) {
-        printf( "Error opening file %s\n", filename );
-        exit( 255 );
+    if (f == NULL) {
+        printf("Error opening file %s\n", filename);
+        exit(255);
     }
 
-    fseek( f, 0, SEEK_END );
+    // Move to the end of the file to determine its size
+    fseek(f, 0, SEEK_END);
+    fs = ftell(f);
+    rewind(f);  // Move back to the beginning
 
-    fs = ftell( f );
-
-    rewind( f );
-
-    buf = ( char* ) malloc( fs );
-
-    size_t s = fread( buf, fs, 1, f );
-    if ( s < 1 ) {
-        printf( "Not entire file have been red %s %lu\n", filename, s );
-        exit( 255 );
+    // Allocate memory to store file contents, including space for null terminator
+    buf = (char*)malloc(fs + 1);
+    if (buf == NULL) {
+        printf("Memory allocation failed\n");
+        fclose(f);
+        exit(255);
     }
 
-    fclose( f );
+    // Read file content
+    size_t s = fread(buf, 1, fs, f);  // fs is the number of bytes to read
+    if (s < fs) {
+        printf("Not entire file has been read %s. Only %lu bytes read\n", filename, s);
+        free(buf);  // Clean up allocated memory
+        fclose(f);
+        exit(255);
+    }
+
+    // Null-terminate the buffer for text files
+    buf[fs] = '\0';
+
+    // Close the file after reading
+    fclose(f);
 }
+
+
 
 
 void PRegEx::load(const char* str, unsigned int len)

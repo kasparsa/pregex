@@ -5,18 +5,19 @@
 #include <stdio.h>
 #include <string.h>
 
-const char *patchar=" !\"#%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ^_`abcdefghijklmnopqrstuvwxyz{|}~";
-const char *symbol="\r\n\t !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
-const char *uppercase="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const char *lowercase="abcdefghijklmnopqrstuvwxyz";
-const char *digit="0123456789";
-const char *hex="0123456789abcdefABCDEF";
-const char *letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const char *wordsym="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_";
-const char *delimiter="\r\n\t !\"#$%&'()*+,-./:;<=>?[\\]^`{|}~";
-const char *brackets="()[]{}";
-const char *blank="\t ";
-const char *newline="\n";
+// Declare global variables as extern
+extern const char* patchar;
+extern const char* symbol;
+extern const char* uppercase;
+extern const char* lowercase;
+extern const char* digit;
+extern const char* hex;
+extern const char* letters;
+extern const char* wordsym;
+extern const char* delimiter;
+extern const char* brackets;
+extern const char* blank;
+extern const char* newline;
 
 typedef struct tmatch {
     unsigned long start;
