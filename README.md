@@ -112,3 +112,8 @@ PRegEx is a lightweight C++ library for regular expression (regex) pattern match
 - ```char* replace_substr(char* str, char* substr, unsigned long pos, unsigned long len):``` Replaces a substring within a string.
 - ```unsigned long subset_match(char c, char* set):``` Checks if a character is part of a subset.
 - ```unsigned long substring_match(unsigned long pos, const char *buf, char* str):``` Matches a substring in a buffer.
+
+## Verbosity Levels:
+- **0**: No debug output.
+- **1**: Basic match information (number of matches and groups).
+- **2**: Detailed output, including tokenized groups and pattern matches.
