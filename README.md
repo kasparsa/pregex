@@ -23,3 +23,33 @@ Usage to write regular expressions with colorized pattern matching and debugging
 ```
 ./parser ../testdata/testdata01.in "\n\([A-Z]+\);\([A-Za-z ()/0-9]+\);\([0-9]+\)"
 ```
+## Usage from your C/C++ program
+Compile as release edition and install library with header file:
+```
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+```
+Write as simple C/C++ test program:
+```
+#include <pregex/pregex.h>
+
+int main( int argc, char *argv[] )
+{
+  PRegEx RegEx;
+  
+  RegEx.init();
+  
+  RegEx.verbosity(0);
+  
+  RegEx.load( "../testdata/testdata01.in" );
+  
+  RegEx.regextract((char*) "\\n\\([A-Z]+\\);\\([A-Za-z ()/0-9]+\\);\\([0-9]+\\)" );
+
+  unsigned long count = RegEx.getrowcount();
+
+  return 0;
+}
+```
