@@ -1,0 +1,310 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+lease 10.0.0.4 {
+  starts 6 2024/02/03 18:50:42;
+  ends 6 2024/02/03 18:52:42;
+  tstp 6 2024/02/03 18:52:42;
+  cltt 6 2024/02/03 18:50:42;
+  binding state free;
+  hardware ethernet 08:00:27:07:33:ec;
+  uid "\001\010\000'\0073\354";
+  set vendor-class-identifier = "PXEClient:Arch:00000:UNDI:002001";
+}
+lease 10.0.0.10 {
+  starts 5 2024/02/16 11:07:17;
+  ends 5 2024/02/16 11:09:17;
+  cltt 5 2024/02/16 11:07:17;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.11 {
+  starts 5 2024/02/16 11:07:21;
+  ends 5 2024/02/16 11:09:21;
+  cltt 5 2024/02/16 11:07:21;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.12 {
+  starts 5 2024/02/16 11:07:29;
+  ends 5 2024/02/16 11:09:29;
+  cltt 5 2024/02/16 11:07:29;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.13 {
+  starts 5 2024/02/16 11:07:45;
+  ends 5 2024/02/16 11:09:45;
+  cltt 5 2024/02/16 11:07:45;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.14 {
+  starts 5 2024/02/16 11:07:54;
+  ends 5 2024/02/16 11:09:54;
+  cltt 5 2024/02/16 11:07:54;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.15 {
+  starts 5 2024/02/16 11:07:57;
+  ends 5 2024/02/16 11:09:57;
+  cltt 5 2024/02/16 11:07:57;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.16 {
+  starts 5 2024/02/16 11:08:05;
+  ends 5 2024/02/16 11:10:05;
+  cltt 5 2024/02/16 11:08:05;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.17 {
+  starts 5 2024/02/16 11:08:22;
+  ends 5 2024/02/16 11:10:22;
+  cltt 5 2024/02/16 11:08:22;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.18 {
+  starts 5 2024/02/16 11:19:34;
+  ends 5 2024/02/16 11:21:34;
+  cltt 5 2024/02/16 11:19:34;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.19 {
+  starts 5 2024/02/16 11:19:38;
+  ends 5 2024/02/16 11:21:38;
+  cltt 5 2024/02/16 11:19:38;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.20 {
+  starts 5 2024/02/16 11:19:46;
+  ends 5 2024/02/16 11:21:46;
+  cltt 5 2024/02/16 11:19:46;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.21 {
+  starts 5 2024/02/16 11:20:02;
+  ends 5 2024/02/16 11:22:02;
+  cltt 5 2024/02/16 11:20:02;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.6 {
+  starts 5 2024/02/16 11:24:32;
+  ends 5 2024/02/16 11:26:32;
+  cltt 5 2024/02/16 11:24:32;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.7 {
+  starts 5 2024/02/16 11:24:35;
+  ends 5 2024/02/16 11:26:35;
+  cltt 5 2024/02/16 11:24:35;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.8 {
+  starts 5 2024/02/16 11:24:43;
+  ends 5 2024/02/16 11:26:43;
+  cltt 5 2024/02/16 11:24:43;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.9 {
+  starts 5 2024/02/16 11:24:59;
+  ends 5 2024/02/16 11:26:59;
+  cltt 5 2024/02/16 11:24:59;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  set vendor-class-identifier = "PXEClient:Arch:00007:UNDI:003016";
+}
+lease 10.0.0.2 {
+  starts 3 2024/02/21 17:44:32;
+  ends 3 2024/02/21 17:54:32;
+  tstp 3 2024/02/21 17:54:32;
+  cltt 3 2024/02/21 17:44:32;
+  binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  uid "\001\000\340Lb\326\266";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.0.0.5 {
+  starts 3 2024/02/21 17:46:34;
+  ends 3 2024/02/21 17:56:34;
+  tstp 3 2024/02/21 17:56:34;
+  cltt 3 2024/02/21 17:46:34;
+  binding state free;
+  hardware ethernet 08:00:27:cc:fa:9e;
+  uid "\001\010\000'\314\372\236";
+  set vendor-class-identifier = "udhcp 1.24.1";
+}
+lease 10.0.0.3 {
+  starts 3 2024/02/21 17:47:22;
+  ends 3 2024/02/21 17:57:22;
+  tstp 3 2024/02/21 17:57:22;
+  cltt 3 2024/02/21 17:47:22;
+  binding state free;
+  hardware ethernet 08:00:27:47:5f:98;
+  uid "\001\010\000'G_\230";
+  set vendor-class-identifier = "udhcp 1.24.1";
+}
+lease 10.0.0.1 {
+  starts 3 2024/02/21 18:08:51;
+  ends 3 2024/02/21 18:18:51;
+  cltt 3 2024/02/21 18:08:51;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:e0:4d:68:3c:f3;
+  uid "\377Mh<\363\000\001\000\001,\202\214\021\000\340Mh<\362";
+}
+lease 10.0.0.1 {
+  starts 3 2024/02/21 18:17:48;
+  ends 3 2024/02/21 18:27:48;
+  cltt 3 2024/02/21 18:17:48;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:e0:4d:68:3c:f3;
+  uid "\377Mh<\363\000\001\000\001,\202\214\021\000\340Mh<\362";
+}
+lease 10.0.0.2 {
+  starts 3 2024/02/21 18:21:19;
+  ends 3 2024/02/21 18:31:19;
+  cltt 3 2024/02/21 18:21:19;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  uid "\001\000\340Lb\326\266";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "Laptop";
+}
+lease 10.0.0.3 {
+  starts 3 2024/02/21 18:21:48;
+  ends 3 2024/02/21 18:31:48;
+  cltt 3 2024/02/21 18:21:48;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:47:5f:98;
+  uid "\001\010\000'G_\230";
+  set vendor-class-identifier = "udhcp 1.24.1";
+  client-hostname "KUbuntu";
+}
+lease 10.0.0.3 {
+  starts 3 2024/02/21 18:24:20;
+  ends 3 2024/02/21 18:34:20;
+  cltt 3 2024/02/21 18:24:20;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:47:5f:98;
+  uid "\001\010\000'G_\230";
+  set vendor-class-identifier = "udhcp 1.24.1";
+  client-hostname "KUbuntu";
+}
+lease 10.0.0.5 {
+  starts 3 2024/02/21 18:25:03;
+  ends 3 2024/02/21 18:35:03;
+  cltt 3 2024/02/21 18:25:03;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:cc:fa:9e;
+  uid "\001\010\000'\314\372\236";
+  set vendor-class-identifier = "udhcp 1.24.1";
+}
+lease 10.0.0.2 {
+  starts 3 2024/02/21 18:26:20;
+  ends 3 2024/02/21 18:36:20;
+  cltt 3 2024/02/21 18:26:20;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  uid "\001\000\340Lb\326\266";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "Laptop";
+}
+lease 10.0.0.1 {
+  starts 3 2024/02/21 18:26:46;
+  ends 3 2024/02/21 18:36:46;
+  cltt 3 2024/02/21 18:26:46;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:e0:4d:68:3c:f3;
+  uid "\377Mh<\363\000\001\000\001,\202\214\021\000\340Mh<\362";
+}
+lease 10.0.0.3 {
+  starts 3 2024/02/21 18:29:20;
+  ends 3 2024/02/21 18:39:20;
+  cltt 3 2024/02/21 18:29:20;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:47:5f:98;
+  uid "\001\010\000'G_\230";
+  set vendor-class-identifier = "udhcp 1.24.1";
+  client-hostname "KUbuntu";
+}
+lease 10.0.0.5 {
+  starts 3 2024/02/21 18:30:04;
+  ends 3 2024/02/21 18:40:04;
+  cltt 3 2024/02/21 18:30:04;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:cc:fa:9e;
+  uid "\001\010\000'\314\372\236";
+  set vendor-class-identifier = "udhcp 1.24.1";
+}
+lease 10.0.0.2 {
+  starts 3 2024/02/21 18:31:20;
+  ends 3 2024/02/21 18:41:20;
+  cltt 3 2024/02/21 18:31:20;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:e0:4c:62:d6:b6;
+  uid "\001\000\340Lb\326\266";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "Laptop";
+}
+lease 10.0.0.3 {
+  starts 3 2024/02/21 18:32:21;
+  ends 3 2024/02/21 18:42:21;
+  cltt 3 2024/02/21 18:32:21;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:47:5f:98;
+  uid "\001\010\000'G_\230";
+  set vendor-class-identifier = "udhcp 1.24.1";
+  client-hostname "KUbuntu";
+}

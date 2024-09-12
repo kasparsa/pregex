@@ -1,0 +1,124 @@
+
+ADC;Add with Carry;30
+ADD;Add without Carry;32
+ADIW;Add Immediate to Word;33
+AND;Logical AND;35
+ANDI;Logical AND with Immediate;36
+ASR;Arithmetic Shift Right;37
+BCLR;Bit Clear in SREG;38
+BLD;Bit Load from the T Flag in SREG to a Bit in Register;39
+BRBC;Branch if Bit in SREG is Cleared;40
+BRBS;Branch if Bit in SREG is Set;41
+BRCC;Branch if Carry Cleared;42
+BRCS;Branch if Carry Set;43
+BREAK;Break;44
+BREQ;Branch if Equal;45
+BRGE;Branch if Greater or Equal (Signed);46
+BRHC;Branch if Half Carry Flag is Cleared;47
+BRHS;Branch if Half Carry Flag is Set;48
+BRID;Branch if Global Interrupt is Disabled;49
+BRIE;Branch if Global Interrupt is Enabled;50
+BRLO;Branch if Lower (Unsigned);51
+BRLT;Branch if Less Than (Signed);52
+BRMI;Branch if Minus;53
+BRNE;Branch if Not Equal;54
+BRPL;Branch if Plus;55
+BRSH;Branch if Same or Higher (Unsigned);56
+BRTC;Branch if the T Flag is Cleared;57
+BRTS;Branch if the T Flag is Set;58
+BRVC;Branch if Overflow Cleared;59
+BRVS;Branch if Overflow Set;60
+BSET;Bit Set in SREG;61
+BST;Bit Store from Bit in Register to T Flag in SREG;62
+CALL;Long Call to a Subroutine;63
+CBI;Clear Bit in I/O Register;65
+CBR;Clear Bits in Register;66
+CLC;Clear Carry Flag;67
+CLH;Clear Half Carry Flag;68
+CLI;Clear Global Interrupt Flag;69
+CLN;Clear Negative Flag;70
+CLR;Clear Register;71
+CLS;Clear Signed Flag;72
+CLT;Clear T Flag;73
+CLV;Clear Overflow Flag;74
+CLZ;Clear Zero Flag;75
+COM;Ones Complement;76
+CP;Compare;77
+CPC;Compare with Carry;79
+CPI;Compare with Immediate;81
+CPSE;Compare Skip if Equal;83
+DEC;Decrement;84
+DES;Data Encryption Standard;86
+EICALL;Extended Indirect Call to Subroutine;87
+EIJMP;Extended Indirect Jump;88
+ELPM;Extended Load Program Memory;89
+EOR;Exclusive OR;91
+FMUL;Fractional Multiply Unsigned;92
+FMULS;Fractional Multiply Signed;94
+FMULSU;Fractional Multiply Signed with Unsigned;96
+ICALL;Indirect Call to Subroutine;98
+IJMP;Indirect Jump;99
+IN;Load an I/O Location to Register;100
+INC;Increment;101
+JMP;Jump;103
+LAC;Load and Clear;104
+LAS;Load and Set;105
+LAT;Load and Toggle;106
+LD;Load Indirect from Data Space to Register using Index X;107
+LDD;Load Indirect from Data Space to Register using Index Y;109
+LDD;Load Indirect From Data Space to Register using Index Z;112
+LDI;Load Immediate;115
+LDS;Load Direct from Data Space;116
+LDS;16 bit Load Direct from Data Space;117
+LPM;Load Program Memory;118
+LSL;Logical Shift Left;120
+LSR;Logical Shift Right;122
+MOV;Copy Register;123
+MOVW;Copy Register Word;124
+MUL;Multiply Unsigned;125
+MULS;Multiply Signed;126
+MULSU;Multiply Signed with Unsigned;127
+NEG;Twos Complement;129
+NOP;No Operation;131
+OR;Logical OR;132
+ORI;Logical OR with Immediate;133
+OUT;Store Register to I/O Location;134
+POP;Pop Register from Stack;135
+PUSH;Push Register on Stack;136
+RCALL;Relative Call to Subroutine;137
+RET;Return from Subroutine;139
+RETI;Return from Interrupt;140
+RJMP;Relative Jump;142
+ROL;Rotate Left trough Carry;143
+ROR;Rotate Right through Carry;145
+SBC;Subtract with Carry;147
+SBCI;Subtract Immediate with Carry SBI Set Bit in I/O Register;149
+SBI;Set Bit in I/O Register;151
+SBIC;Skip if Bit in I/O Register is Cleared;152
+SBIS;Skip if Bit in I/O Register is Set;153
+SBIW;Subtract Immediate from Word;154
+SBR;Set Bits in Register;156
+SBRC;Skip if Bit in Register is Cleared;157
+SBRS;Skip if Bit in Register is Set;158
+SEC;Set Carry Flag;159
+SEH;Set Half Carry Flag;160
+SEI;Set Global Interrupt Flag;161
+SEN;Set Negative Flag;162
+SER;Set all Bits in Register;163
+SES;Set Signed Flag;164
+SET;Set T Flag;165
+SEV;Set Overflow Flag;166
+SEZ;Set Zero Flag;167
+SLEEP;Sleep;168
+SPM;Store Program Memory;169
+ST;Store Indirect From Register to Data Space using Index X;173
+ST;Store Indirect From Register to Data Space using Index Y;175
+ST;Store Indirect From Register to Data Space using Index Z;177
+STS;Store Direct to Data Space;179
+STS;16 bit Store Direct to Data Space;180
+SUB;Subtract Without Carry;181
+SUBI;Subtract Immediate;183
+SWAP;Swap Nibbles;185
+TST;Test for Zero or Minus;186
+WDR;Watchdog Reset;187
+XCH;Exchange;188
